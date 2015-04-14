@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewIdText"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/left_margin"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDateText"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_below="@+id/textViewIdText"
+        android:layout_toRightOf="@+id/textViewTypeText"
+        android:layout_marginLeft="@dimen/right_margin"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTypeText"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_below="@+id/textViewIdText"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDataText"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_below="@+id/textViewTypeText"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginBottom="@dimen/left_margin"/>
+
+</RelativeLayout>

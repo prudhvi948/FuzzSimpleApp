@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageViewMain"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/left_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewIdMain"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewMain"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/left_margin"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDateMain"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_below="@+id/textViewIdMain"
+        android:layout_toRightOf="@+id/textViewTypeMain"
+        android:layout_marginLeft="@dimen/right_margin"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTypeMain"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_toRightOf="@+id/imageViewMain"
+        android:layout_below="@+id/textViewIdMain"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDataMain"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_toRightOf="@+id/imageViewMain"
+        android:layout_below="@+id/textViewTypeMain"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginBottom="@dimen/left_margin"/>
+
+</RelativeLayout>
